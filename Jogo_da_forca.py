@@ -76,7 +76,7 @@ while acertos != len(palavra_secreta) and erros != 7:
 
     letra = input('Digite a letra: ').upper()
     if letra in letras_erradas:
-        print('Essa letra ja foi, bobão, toma um ponto ai de graça')
+        print('Essa letra ja foi, toma um ponto ai de graça')
         letras_erradas = letras_erradas[:-1]
 
     if letra in palavra_secreta:
